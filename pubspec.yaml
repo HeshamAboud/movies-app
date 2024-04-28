@@ -1,0 +1,39 @@
+name: movies
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  url_launcher: 6.0.3
+  shared_preferences: ^2.2.2
+  carousel_slider: ^4.2.1
+  provider: 6.0.0
+
+  http: 0.13.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Sans
+      fonts:
+        - asset: assets/fonts/ProductSans-Regular.ttf
+        - asset: assets/fonts/ProductSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/ProductSans-Bold.ttf
+          weight: 700
